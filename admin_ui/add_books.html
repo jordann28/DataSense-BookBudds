@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="min-h-screen flex bg-white">
+
+  <div class="w-1/4 bg-blue-900 text-white p-4 flex flex-col items-center">
+    <div class="flex flex-col items-center mb-8">
+      <img class="w-24 h-24 rounded-full mb-2" src="https://placehold.co/100x100" alt="Profile Picture">
+      <h2 class="text-lg font-semibold">Jord Jack Elo</h2>
+      <p class="text-sm">ADMIN</p>
+    </div>
+    <nav class="flex flex-col space-y-4 w-full">
+      <a href="#" class="flex items-center space-x-2 p-2 rounded hover:bg-blue-700">
+        <img class="w-6 h-6" src="https://placehold.co/24x24" alt="Dashboard Icon">
+        <span>Dashboard</span>
+      </a>
+      <a href="#" class="flex items-center space-x-2 p-2 rounded bg-blue-700">
+        <img class="w-6 h-6" src="https://placehold.co/24x24" alt="Books Icon">
+        <span>Books</span>
+      </a>
+      <a href="#" class="flex items-center space-x-2 p-2 rounded hover:bg-blue-700">
+        <img class="w-6 h-6" src="https://placehold.co/24x24" alt="Feedbacks Icon">
+        <span>Feedbacks</span>
+      </a>
+    </nav>
+    <div class="mt-auto">
+      <a href="#" class="flex items-center space-x-2 p-2 rounded hover:bg-blue-700">
+        <img class="w-6 h-6" src="https://placehold.co/24x24" alt="Logout Icon">
+        <span>Logout</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="w-3/4 p-8">
+    <h1 class="text-2xl font-bold text-blue-900 mb-8">ADD BOOKS</h1>
+    <div class="flex space-x-8">
+
+      <div class="flex flex-col items-center space-y-4">
+        <div class="w-64 h-80 bg-zinc-300 flex items-center justify-center text-zinc-700">
+          Book Cover
+        </div>
+        <button class="bg-blue-700 text-white py-2 px-4 rounded">Upload Image</button>
+      </div>
+
+      <form class="w-1/2 bg-zinc-200 p-4 rounded space-y-4">
+        <input type="text" placeholder="Book Title" class="w-full p-2 rounded border border-zinc-400">
+        <input type="text" placeholder="Author Name" class="w-full p-2 rounded border border-zinc-400">
+        <input type="text" placeholder="Genre/Category" class="w-full p-2 rounded border border-zinc-400">
+        <textarea placeholder="Description" class="w-full p-2 rounded border border-zinc-400"></textarea>
+        <input type="file" class="w-full p-2 rounded border border-zinc-400">
+        <button type="submit" class="bg-green-500 text-white py-2 px-4 rounded">Upload Book</button>
+      </form>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
